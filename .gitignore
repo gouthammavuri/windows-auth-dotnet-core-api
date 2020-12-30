@@ -2,11 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/DotnetCore.Api/DotnetCore.Api.WinAuth/bin/Debug/netcoreapp3.1
-/DotnetCore.Api/DotnetCore.Api.WinAuth/obj
-/DotnetCore.Api/.vs/DotnetCore.Api/v16
-/dotnetcore.api/.vs/dotnetcore.api/DesignTimeBuild/.dtbcache.v2
-/dotnetcore.ap/.vs/dotnetcore.api/v16/.suo
-/dotnetcore.ap/.vs/dotnetcore.api/DesignTimeBuild/.dtbcache.v2
-/dotnetcore.ap/dotnetcore.api.winaut/bin/Debug/netcoreapp3.1
-/dotnetcore.ap/dotnetcore.api.winaut/obj
+/dotnetcore.api/dotnetcore.api.winauth/bin
+/dotnetcore.api/dotnetcore.api.winauth/obj
+/dotnetcore.api/.vs
