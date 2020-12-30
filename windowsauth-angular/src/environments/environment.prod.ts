@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiAccount: 'https://localhost/api/account'
 };
