@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jH5j51muQJIdCfthRZjvkPGaMK2gF8ZmDx/MoB7XSi8pH1u3tk5ma8HMHO2QT5SUqz1qjgb3lpboHsDcFxOi3Q==",
+  "dgSpecHash": "AXzq61xrsMIqhdK7VrBGnpg/HJIp9ReEodXbmr/x7PSD8GxWPufGSsG7j9cebt6SYRX/fAXnximGJ9jPP11vMQ==",
   "success": true,
-  "projectFilePath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
+  "projectFilePath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

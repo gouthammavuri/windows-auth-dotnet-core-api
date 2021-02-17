@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Server.IISIntegration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace DotnetCore.Api.WinAuth
 {
@@ -22,7 +24,7 @@ namespace DotnetCore.Api.WinAuth
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddTransient<IClaimsTransformation, ClaimsTransformer>();
             services.AddAuthentication(IISDefaults.AuthenticationScheme);
             services.AddSingleton<IAuthorizationPolicyProvider, AuthorizationPolicyProvider>();

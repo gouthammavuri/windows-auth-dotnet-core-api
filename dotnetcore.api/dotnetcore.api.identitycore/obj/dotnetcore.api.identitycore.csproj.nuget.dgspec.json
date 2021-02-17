@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj": {}
+    "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj": {}
   },
   "projects": {
-    "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj": {
+    "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
+        "projectUniqueName": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
         "projectName": "dotnetcore.api.identitycore",
-        "projectPath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
+        "projectPath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\dotnetcore.api.identitycore.csproj",
         "packagesPath": "C:\\Users\\gouth\\.nuget\\packages\\",
-        "outputPath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\dotnetcore.api\\dotnetcore.api.identitycore\\obj\\",
+        "outputPath": "H:\\Repos\\GitHub\\windows-auth-dotnet-core-api\\DotnetCore.Api\\dotnetcore.api.identitycore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
