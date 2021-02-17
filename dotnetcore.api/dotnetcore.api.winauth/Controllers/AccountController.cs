@@ -22,5 +22,20 @@ namespace DotnetCore.Api.WinAuth.Controllers
             IPrincipal p = httpContext.User;
             return p.Identity.Name;
         }
+
+        [HttpPost]
+        [Route("test")]
+        public string Test([FromBody]Employee employee)
+        {
+            var httpContext = HttpContext;
+            IPrincipal p = httpContext.User;
+            return p.Identity.Name;
+        }
+    }
+
+    public class Employee
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

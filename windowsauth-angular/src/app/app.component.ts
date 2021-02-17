@@ -8,15 +8,16 @@ import { AccountService } from './services/account-service';
 })
 export class AppComponent implements OnInit {
 
-    public title: string = 'windowsauth-angular';
-    public winAccount: any = undefined;
+  public title: string = 'windowsauth-angular';
+  public winAccount: any = undefined;
 
-    constructor(private acctServ: AccountService) { 
-        acctServ.get().subscribe(account => {
-            this.winAccount = account;
-        });
-    }
+  constructor(private acctServ: AccountService) {
+    acctServ.test().subscribe(x => {
+      console.log(x);
+      this.winAccount = x;
+    });
+  }
 
-    ngOnInit() {
-    }
+  ngOnInit() {
+  }
 }
